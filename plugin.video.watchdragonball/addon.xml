@@ -8,7 +8,7 @@ provider-name="Bouke van der Bijl"
 <requires> 
 	<import addon="xbmc.gui"/>
 </requires>
-<extension point="xbmc.python.pluginsource" library="dragonball-xbmc.py">
+<extension point="xbmc.python.pluginsource" library="watch-dragonball-xbmc.py">
 	<provides>video</provides>
 </extension>
 <extension point="xbmc.addon.metadata">
