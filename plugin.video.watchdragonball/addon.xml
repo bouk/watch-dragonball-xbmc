@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon
+id="plugin.video.watchdragonball"
+version="1.0.0"
+name="Watch Dragonball"
+provider-name="Bouke van der Bijl"
+>
+<requires> 
+	<import addon="xbmc.gui"/>
+</requires>
+<extension point="xbmc.python.pluginsource" library="dragonball-xbmc.py">
+	<provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+	<summary>Watch Dragonball episodes</summary>
+	<description></description>
+	<disclaimer>I am not responsible for any damage to anything you have while using this plugin!</disclaimer>
+	<platform>all</platform>
+</extension>
+</addon>
